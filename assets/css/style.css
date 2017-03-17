@@ -46,21 +46,24 @@ section {
 	width: 65%;
 	padding: 2.1%;
 	background-color: #ffffff;
+	float: left;
 }
 form {
 	width: 65%;
 	padding: 2.1%;
 	background-color: #ffffff;
+	float: left;
 }
 aside {
 	width: 27%;
 	height: 13%;
 	padding: 2.1% 1.05% 2.1% 1.05%;
 	background-color: #ffffff;
+	float: right;
 }
 a {
 	text-decoration: none;
-	font-size: 11pt;
+	font-size: 13pt;
 }
 input, textarea {
 	width: 100%;
@@ -93,7 +96,7 @@ input, textarea {
 }
 .firstHeader {
 	color: #4ca9a4;
-	margin: 0 auto;
+	margin: 0;
 	padding: 15px 0 20px 0;
 }
 .connectMe {
@@ -188,43 +191,48 @@ img {
 	height: 26%;
 	margin-bottom: 4%;
 }
+
 @media screen and (max-width: 980px) {
 	.container {
-		width: 99%;
+		width: 100%;
 	}
 	.mainContent {
-		width: 99%;
+		width: 100%;
+	}
+	nav {
+		margin-right: 2%;
 	}
 }
 @media screen and (max-width: 768px) {	
-	p, a {
-		font-size: 10.0pt;
+	.container {
+		width: 99%;
 	}
-	h1 {
-		font-size: 1.6em;
+	.profilePic {
+		width: 250px;
+		height: 187px;
 	}
-	h2 {
-		font-size: .9em;
+	section {
+		width: 95.5%;
 	}
-	.footerNote, .blueBox {
-		font-size: 8.3pt;
+	form {
+		width: 95.5%;
+	}
+	aside {		
+		margin: 20px 25% 0 0;
+		width: 50%;
 	}
 	.blueBox {
 		bottom: 50px;
 	}
 }
-@media screen and (max-width: 640px) {	
-	p, a {
-		font-size: 9.5pt;
-	}
-	h1 {
-		font-size: 1.4em;
-	}
-	h2 {
-		font-size: .8em;
-	}
-	.footerNote, .blueBox {
-		font-size: 8.0pt;
+@media screen and (max-width: 640px) {		
+	img.profilePic {
+		display: block;
+		width: 62%;
+		height: 30%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 15px;
 	}
 	.topbar {
 		position: static;
