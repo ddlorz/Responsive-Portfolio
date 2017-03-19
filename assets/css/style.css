@@ -218,8 +218,13 @@ img {
 		width: 95.5%;
 	}
 	aside {		
-		margin: 20px 25% 0 0;
-		width: 50%;
+		clear: both;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: 20px;
+		width: 350px;
 	}
 	.blueBox {
 		bottom: 50px;
